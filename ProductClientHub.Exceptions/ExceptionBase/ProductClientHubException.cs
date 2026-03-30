@@ -10,6 +10,6 @@ namespace ProductClientHub.Exceptions.ExceptionBase
         }
 
         public abstract List<string> GetErrors();
-        public abstract HttpStatusCode getHttpStatusCode();
+        public abstract HttpStatusCode GetHttpStatusCode();
     }
 }

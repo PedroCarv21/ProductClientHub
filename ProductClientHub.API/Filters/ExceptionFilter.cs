@@ -11,7 +11,7 @@ namespace ProductClientHub.API.Filters
         {
             if (context.Exception is ProductClientHubException productClientHubException)
             {
-                context.HttpContext.Response.StatusCode = (int) productClientHubException.getHttpStatusCode();
+                context.HttpContext.Response.StatusCode = (int) productClientHubException.GetHttpStatusCode();
 
                 context.Result = new ObjectResult(new ResponseErrorMessagesJson(productClientHubException.GetErrors()));
             }

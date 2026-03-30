@@ -14,6 +14,6 @@ namespace ProductClientHub.Exceptions.ExceptionBase
 
         public override List<string> GetErrors() => _errors;
 
-        public override HttpStatusCode getHttpStatusCode() => HttpStatusCode.BadRequest;
+        public override HttpStatusCode GetHttpStatusCode() => HttpStatusCode.BadRequest;
     }
 }
