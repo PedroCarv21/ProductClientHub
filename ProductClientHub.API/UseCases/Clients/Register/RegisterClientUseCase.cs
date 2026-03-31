@@ -28,7 +28,7 @@ namespace ProductClientHub.API.UseCases.Clients.Register
 
             return new ResponseShortClientJson
             {
-                Id = entity.id,
+                Id = entity.Id,
                 Name = entity.Name, 
             };
         }

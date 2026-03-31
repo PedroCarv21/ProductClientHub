@@ -15,7 +15,7 @@ namespace ProductClientHub.API.UseCases.Clients.GetAll
             {
                 Clients = clients.Select(clients => new ResponseShortClientJson
                 {
-                    Id = clients.id,
+                    Id = clients.Id,
                     Name = clients.Name,
                 }).ToList()
             };

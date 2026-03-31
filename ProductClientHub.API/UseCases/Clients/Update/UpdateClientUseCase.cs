@@ -14,7 +14,7 @@ namespace ProductClientHub.API.UseCases.Clients.Update
 
             var dbContext = new ProductClientHubDbContext();
 
-            var entity = dbContext.Clients.FirstOrDefault(client => client.id == clientId);
+            var entity = dbContext.Clients.FirstOrDefault(client => client.Id == clientId);
 
             if (entity == null)
                 throw new NotFoundException("Cliente não encontrado.");
