@@ -74,7 +74,17 @@ Estrutura base para exceções personalizadas.
 
 ### Abrindo o Visual Studio
 
-Dentro da pasta do projeto, encontre o arquivo `ProductClientHub` → clique com o botão esquerdo -> selecione a opção `Abrir com Microsoft Visual Studio`.
+Dentro da pasta do projeto, encontre o arquivo `ProductClientHub` → clique com o botão direito -> selecione a opção `Abrir com Microsoft Visual Studio`.
+
+### Verificando pacotes disponíveis
+
+Verifique se os seguintes pacotes estão disponíveis:
+
+![Imagem da lista dos pacotes](image.png)
+
+Para confirmar isso, clique com o botão direito no `ProductClientHub.API` → selecione a opção `Manage NuGet Packages...` → clique na aba `Installed`.
+
+Caso algum dos pacotes não esteja instalado, clique na aba `Browse` → digite o nome do pacote -> clique em `Install`.
 
 ### Atualizando a url do banco
 
